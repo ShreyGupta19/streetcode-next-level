@@ -84,11 +84,9 @@ Some questions adapted from Stanford's CS41 Materials (cs41.stanford.edu) and fr
 		rotate2('Hi') --> 'Hi'
 		rotate2('a') --> None
 
-4. *How Old am I?*: Write a function that takes a birthday in the format `"MM/DD/YYYY"` and returns the age of the person in number of days (rounded down). You might find the [`str.split`](https://docs.python.org/3.5/library/stdtypes.html#str.split) function useful. Also, to get today's date, you can use the [`datetime`](https://docs.python.org/3/library/datetime.html#datetime-objects) module. Remember to import the module properly!
+4. *How Old am I?*: Write a function that takes a birthday in the format `"MM/DD/YYYY"` and returns the age of the person in number of years (rounded down). You might find the [`str.split`](https://docs.python.org/3.5/library/stdtypes.html#str.split) function useful. Also, to get today's date, you can use the [`datetime`](https://docs.python.org/3/library/datetime.html#datetime-objects) module. Remember to import the module properly!
 
-	Hint: Remember about leap years!
-
-		how_old('11/12/2000') --> 5925
+		how_old('11/12/2000') --> 16
 		
 5. *In Range 1 to 10*: Write a function that takes two arguments: a number `n` and a boolean `outside_mode`. THe function returns `True` if `n` is in the range 1 to 10, inclusive, and `False` otherwise. However, if the argument `outside_mode` is `True`, return `True` if `n` is *outside* the range 1 to 10, inclusive, and `False` otherwise.
 
